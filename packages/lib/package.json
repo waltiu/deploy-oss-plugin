@@ -1,0 +1,23 @@
+{
+  "name": "deploy-oss",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup index.ts --dts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1484.0",
+    "glob": "^10.3.10",
+    "mime": "^3.0.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.10",
+    "typescript": "^5.2.2"
+  }
+}
