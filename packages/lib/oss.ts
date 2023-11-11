@@ -5,9 +5,9 @@ import { endpoint } from "./constant";
 export const getClient = (ossOptions: OptionInterface["oss"]) => {
     // oss-京东云： https://docs.jdcloud.com/cn/object-storage-service/sdk-nodejs
     const s3: any = new AWS.S3({ apiVersion: '2006-03-01' });
-    s3.endpoint = endpoint;
+    s3.endpoint = ossOptions.endpoint||endpoint;
     s3.config.update({
-      endpoint: endpoint,
+      endpoint: ossOptions.endpoint||endpoint,
       accessKeyId: ossOptions.accessKey,
       secretAccessKey: ossOptions.secretKey,
       s3ForcePathStyle: true,

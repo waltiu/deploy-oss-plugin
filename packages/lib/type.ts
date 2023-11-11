@@ -1,14 +1,13 @@
 export interface OptionInterface {
-  oss: Partial<{
-    pathName: string,
-    bucketName: string,
-    accessKey: string,
-    secretKey: string,
-  }>,
-  config: Partial<{
-    
-  }>
+    pathName: string,  // 文件的路径
+    bucketName: string, // bucket名称
+    accessKey: string, // 密钥对
+    secretKey: string, // 密钥对
+    endpoint?:string // 服务器地址
 }
+
+// outDir 打包文件的地址，方便后面去遍历找文件
+export type deployType=(outDir:string,options:OptionInterface)=>void
 
 export interface PluginRes {
   name: string;
