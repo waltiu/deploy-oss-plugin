@@ -1,8 +1,6 @@
 
 # deploy-oss  <a href="https://www.npmjs.com/package/deploy-oss"><img src="https://badgen.net/npm/v/deploy-oss" alt="Version"></a>
- <a href="https://www.npmjs.com/package/deploy-oss-vite-plugin"><img src="https://badgen.net/npm/v/deploy-oss-vite-plugin" alt="Version"></a>
-  <a href="https://www.npmjs.com/package/deploy-oss-webpack-plugin"><img src="https://badgen.net/npm/v/deploy-oss-webpack-plugin" alt="Version"></a>
-
+ 
 <p align="center">
 
  </p>
