@@ -1,4 +1,4 @@
-# deploy-oss
+# deploy-oss-vite-plugin
 
 ## 0.0.2
 

@@ -1,4 +1,4 @@
-# deploy-oss
+# deploy-oss-webpack-plugin
 
 ## 0.0.2
 
